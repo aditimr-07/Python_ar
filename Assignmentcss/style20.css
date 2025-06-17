@@ -1,0 +1,15 @@
+ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      padding: 10px;
+      font-size: 1.2rem;
+    }
+    li:first-child {
+      color: red;
+      font-weight: bold;
+    }
+    li:first-child::before {
+      content: "🍬 ";
+    }

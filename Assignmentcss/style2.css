@@ -1,0 +1,16 @@
+.gradeA {
+      background-color: #d4edda;
+    }
+
+    .gradeB {
+      background-color: #f8d7da;
+    }
+
+    input[type="text"] {
+      border: 2px solid blue;
+    }
+
+    input[type="email"] {
+      border: 2px dashed green;
+    }
+ 

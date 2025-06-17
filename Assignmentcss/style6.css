@@ -1,0 +1,20 @@
+  .inline span, .inline a, .inline strong {
+      border: 1px solid black;
+      margin: 5px;
+      padding: 5px;
+    }
+
+    .block div, .block p, .block h1 {
+      border: 1px solid blue;
+      margin: 5px;
+      padding: 5px;
+    }
+
+    /* Bonus */
+    .block p {
+      display: inline;
+    }
+
+    .inline span {
+      display: block;
+    }

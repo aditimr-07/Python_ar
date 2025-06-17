@@ -1,0 +1,22 @@
+.box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .item {
+      background: lightblue;
+      flex: 1 1 calc(16% - 10px);
+      min-width: 100px;
+      text-align: center;
+      padding: 20px;
+    }
+    @media (max-width: 1024px) {
+      .item {
+        flex: 1 1 calc(30% - 10px);
+      }
+    }
+    @media (max-width: 600px) {
+      .item {
+        flex: 1 1 100%;
+      }
+    }

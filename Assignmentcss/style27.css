@@ -1,0 +1,16 @@
+.item {
+      font-size: 2rem;
+      margin: 20px;
+    }
+    .hat, .scarf, .sunglasses {
+      display: none;
+    }
+    @media (min-width: 1024px) {
+      .hat { display: block; }
+    }
+    @media (min-width: 600px) and (max-width: 1023px) {
+      .scarf { display: block; }
+    }
+    @media (max-width: 599px) {
+      .sunglasses { display: block; }
+    }

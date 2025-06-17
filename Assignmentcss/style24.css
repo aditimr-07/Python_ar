@@ -1,0 +1,14 @@
+.crab {
+  font-size: 80px;
+  display: inline-block;
+  animation: walk 2s infinite alternate ease-in-out;
+}
+
+@keyframes walk {
+  0% {
+    transform: translateX(0) rotate(-10deg);
+  }
+  100% {
+    transform: translateX(200px) rotate(10deg);
+  }
+}

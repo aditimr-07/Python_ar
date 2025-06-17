@@ -1,0 +1,15 @@
+.rocket {
+  font-size: 80px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.rocket.launch {
+  animation: launch 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+@keyframes launch {
+  to {
+    transform: translateY(-500px);
+  }
+}

@@ -1,0 +1,22 @@
+.glass {
+  width: 100px;
+  height: 200px;
+  border: 4px solid #333;
+  position: relative;
+  overflow: hidden;
+}
+
+.juice {
+  width: 100%;
+  height: 100%;
+  background: orange;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  animation: fill 3s forwards;
+}
+
+@keyframes fill {
+  to {
+    transform: scaleY(1);
+  }
+}
