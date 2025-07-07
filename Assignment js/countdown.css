@@ -1,0 +1,9 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
+    }
+    #countdown {
+      font-size: 48px;
+      color: #FF5733;
+    }
