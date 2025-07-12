@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agriculture Products</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="rough.css">
+</head>
+<body class="bg-green-50">
+  <!-- Navbar -->
+  <nav class="bg-green-700 text-white p-4 flex justify-between items-center">
+    <h1 class="text-2xl font-bold">AgriCart</h1>
+    <input id="searchInput" type="text" placeholder="Search products..." class="px-3 py-1 rounded text-black">
+  </nav>
+
+  <!-- Filter Dropdown -->
+  <div class="p-4">
+    <select id="categoryFilter" class="p-2 rounded border">
+      <option value="all">All Categories</option>
+    </select>
+  </div>
+
+  <!-- Product Cards -->
+  <div id="productList" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4"></div>
+
+  <!-- Cart Section -->
+  <div class="p-4 bg-white shadow mt-4">
+    <h2 class="text-xl font-semibold">Cart</h2>
+    <ul id="cartItems" class="list-disc pl-6 mt-2"></ul>
+    <p class="mt-2 font-bold">Total: ₹<span id="totalPrice">0</span></p>
+  </div>
+  <script src="rough.js"></script>
+</body>
+</html>
